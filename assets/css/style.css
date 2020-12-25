@@ -26,6 +26,7 @@ tr:first-child td {
     position: sticky;
     top: 0;
     background-color: #3498DB;
+    z-index: 2;
 }
 
 tr:nth-child(2n) {
@@ -36,6 +37,7 @@ td:first-child {
     position: sticky;
     left: 0;
     background-color: #3498DB;
+    z-index: 1;
 }
 
 .wrapper {
