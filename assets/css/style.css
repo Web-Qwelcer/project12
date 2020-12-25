@@ -1,0 +1,46 @@
+body {
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+*,
+*::before,
+*::after {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+table {
+    border-collapse: collapse;
+}
+
+tr {
+    text-align: center;
+}
+
+td {
+    padding: 10px 15px;
+}
+
+tr:first-child td {
+    position: sticky;
+    top: 0;
+    background-color: #3498DB;
+}
+
+tr:nth-child(2n) {
+    background-color: #f0f0f0;
+}
+
+td:first-child {
+    position: sticky;
+    left: 0;
+    background-color: #3498DB;
+}
+
+.wrapper {
+    height: 722px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
